@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.auralogs/auralogs",
+  "title": "Auralogs",
+  "description": "Read-only access to Auralogs production logs: search logs, inspect errors, review AI analyses.",
+  "version": "0.1.0",
+  "websiteUrl": "https://docs.auralogs.ai/read-api/overview/",
+  "repository": {
+    "url": "https://github.com/auralogs-ai/auralogs-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.auralogs.ai/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer aura_read_YOUR_KEY. Create a read-only project key in the Auralogs dashboard under Settings, API & MCP keys.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
