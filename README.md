@@ -81,13 +81,12 @@ Click the **Add to Cursor** badge above, or add to `.cursor/mcp.json`:
 
 ### Cline
 
-Add to `cline_mcp_settings.json`:
+Add via the **Remote Servers** tab, or in `cline_mcp_settings.json`:
 
 ```json
 {
   "mcpServers": {
     "auralogs": {
-      "type": "streamableHttp",
       "url": "https://mcp.auralogs.ai/mcp",
       "headers": {
         "Authorization": "Bearer aura_read_YOUR_KEY"

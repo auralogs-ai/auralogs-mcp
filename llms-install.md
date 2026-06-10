@@ -18,13 +18,12 @@ If they don't have one:
 - Transport: Streamable HTTP
 - Header: `Authorization: Bearer aura_read_YOUR_KEY`
 
-Cline (`cline_mcp_settings.json`):
+Cline (`cline_mcp_settings.json`, or use the Remote Servers tab in the MCP settings UI):
 
 ```json
 {
   "mcpServers": {
     "auralogs": {
-      "type": "streamableHttp",
       "url": "https://mcp.auralogs.ai/mcp",
       "headers": {
         "Authorization": "Bearer aura_read_YOUR_KEY"
