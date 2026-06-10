@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "auralogs": {
+      "url": "https://mcp.auralogs.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer aura_read_YOUR_KEY"
+      }
+    }
+  }
+}
